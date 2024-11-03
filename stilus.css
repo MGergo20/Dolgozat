@@ -7,7 +7,7 @@ body {
 
 #tarolo {
     width: 800px;
-    background-color: ;
+    background-color: rgb(182,168,150);
     margin: auto;
     padding: 10px;
 }
@@ -35,5 +35,20 @@ p {
     text-align: justify;
 }
 #nav {
-    background-color: ;
+    background-color: rgba(198,186,164,255);
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+#nav li {
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+}
+#nav a {
+    text-decoration: none;
+    color: black;
 }
